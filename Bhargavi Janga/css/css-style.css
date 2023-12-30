@@ -420,7 +420,62 @@ b, strong {
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #5b5b5b;
 }
+/*projects*/
+.service-card {
+  position: relative;
+  min-height: 230px;
+  border: 1px solid #dee2e6;
+  overflow: hidden;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
 
+.service-card .body {
+  padding: 10px;
+}
+
+.service-card .body img.icon {
+  margin-top: 40px;
+  width: 55px;
+  margin-bottom: 25px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .service-card .body img.icon {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.service-card .body .subtitle {
+  position: absolute;
+  bottom: -100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .service-card .body .subtitle {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.service-card:hover .body img.icon {
+  margin-top: 5px;
+  width: 45px;
+  margin-bottom: 15px;
+}
+
+.service-card:hover .body .subtitle {
+  bottom: 7px;
+  opacity: 1;
+  visibility: visible;
+}
 
 
 .google-map iframe {

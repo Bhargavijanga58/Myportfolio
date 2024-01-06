@@ -366,6 +366,8 @@ b, strong {
   margin-left: 15px;
 }
 
+/*Publications section*/
+
 .owl-carousel .owl-nav span {
   display: none;
 }
@@ -430,6 +432,7 @@ b, strong {
   margin-bottom: 20px;
 }
 
+/*Projects*/
 .service-card .body {
   padding: 10px;
 }

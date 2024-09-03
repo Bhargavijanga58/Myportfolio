@@ -574,6 +574,7 @@ b, strong {
 
   .animated-item {
     font-size: 28px;
+    width: fit-content;
   }
 
   .navbar-collapse {
